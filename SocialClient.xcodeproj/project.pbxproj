@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8443ABD51B80C72900275B2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443ABD41B80C72900275B2C /* AppDelegate.swift */; };
-		8443ABD71B80C72900275B2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443ABD61B80C72900275B2C /* ViewController.swift */; };
+		8443ABD71B80C72900275B2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443ABD61B80C72900275B2C /* LoginViewController.swift */; };
 		8443ABDA1B80C72900275B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443ABD81B80C72900275B2C /* Main.storyboard */; };
 		8443ABDC1B80C72900275B2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8443ABDB1B80C72900275B2C /* Images.xcassets */; };
 		8443ABDF1B80C72900275B2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443ABDD1B80C72900275B2C /* LaunchScreen.xib */; };
 		8443ABEB1B80C72900275B2C /* SocialClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443ABEA1B80C72900275B2C /* SocialClientTests.swift */; };
+		8443ABF71B80C75000275B2C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8443ABF41B80C75000275B2C /* FBSDKCoreKit.framework */; };
+		8443ABF81B80C75100275B2C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8443ABF51B80C75000275B2C /* FBSDKLoginKit.framework */; };
+		8443ABF91B80C75100275B2C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8443ABF61B80C75000275B2C /* FBSDKShareKit.framework */; };
+		84F0D0161B80E4FB000E34AE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0D0151B80E4FB000E34AE /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,18 @@
 		8443ABCF1B80C72900275B2C /* SocialClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8443ABD31B80C72900275B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8443ABD41B80C72900275B2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8443ABD61B80C72900275B2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8443ABD61B80C72900275B2C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8443ABD91B80C72900275B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8443ABDB1B80C72900275B2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8443ABDE1B80C72900275B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8443ABE41B80C72900275B2C /* SocialClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8443ABE91B80C72900275B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8443ABEA1B80C72900275B2C /* SocialClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialClientTests.swift; sourceTree = "<group>"; };
+		8443ABF41B80C75000275B2C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		8443ABF51B80C75000275B2C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		8443ABF61B80C75000275B2C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		8443ABFB1B80C88000275B2C /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		84F0D0151B80E4FB000E34AE /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsViewController.swift; path = ViewControllers/ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8443ABF81B80C75100275B2C /* FBSDKLoginKit.framework in Frameworks */,
+				8443ABF71B80C75000275B2C /* FBSDKCoreKit.framework in Frameworks */,
+				8443ABF91B80C75100275B2C /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +89,14 @@
 		8443ABD11B80C72900275B2C /* SocialClient */ = {
 			isa = PBXGroup;
 			children = (
+				84F0D0181B80E51A000E34AE /* ViewControllers */,
+				84F0D0171B80E507000E34AE /* Frameworks */,
 				8443ABD41B80C72900275B2C /* AppDelegate.swift */,
-				8443ABD61B80C72900275B2C /* ViewController.swift */,
 				8443ABD81B80C72900275B2C /* Main.storyboard */,
 				8443ABDB1B80C72900275B2C /* Images.xcassets */,
 				8443ABDD1B80C72900275B2C /* LaunchScreen.xib */,
 				8443ABD21B80C72900275B2C /* Supporting Files */,
+				8443ABFB1B80C88000275B2C /* Bridge.h */,
 			);
 			path = SocialClient;
 			sourceTree = "<group>";
@@ -110,6 +124,25 @@
 				8443ABE91B80C72900275B2C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F0D0171B80E507000E34AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8443ABF41B80C75000275B2C /* FBSDKCoreKit.framework */,
+				8443ABF51B80C75000275B2C /* FBSDKLoginKit.framework */,
+				8443ABF61B80C75000275B2C /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F0D0181B80E51A000E34AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8443ABD61B80C72900275B2C /* LoginViewController.swift */,
+				84F0D0151B80E4FB000E34AE /* ContactsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +189,13 @@
 		8443ABC71B80C72800275B2C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = antonShcherba;
 				TargetAttributes = {
 					8443ABCE1B80C72800275B2C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = RFFMG79JVM;
 					};
 					8443ABE31B80C72900275B2C = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,8 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8443ABD71B80C72900275B2C /* ViewController.swift in Sources */,
+				8443ABD71B80C72900275B2C /* LoginViewController.swift in Sources */,
 				8443ABD51B80C72900275B2C /* AppDelegate.swift in Sources */,
+				84F0D0161B80E4FB000E34AE /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +376,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/admin/Downloads/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = SocialClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +395,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/admin/Downloads/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = SocialClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -409,6 +463,7 @@
 				8443ABF01B80C72900275B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8443ABF11B80C72900275B2C /* Build configuration list for PBXNativeTarget "SocialClientTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +472,7 @@
 				8443ABF31B80C72900275B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

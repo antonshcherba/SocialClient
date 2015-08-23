@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SocialClient.ViewController.loginButton (SocialClient.ViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.FBSDKLoginButton&gt;, didCompleteWithResult : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.FBSDKLoginManagerLoginResult&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "result.grantedPermissions!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SocialClient.ContactsViewController.(viewWillAppear (SocialClient.ContactsViewController) -&gt; (Swift.Bool) -&gt; ()).(closure #1):ContactsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contacts">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SocialClient.ContactsViewController.tableView (SocialClient.ContactsViewController)(ObjectiveC.UITableView, numberOfRowsInSection : Swift.Int) -&gt; Swift.Int:ContactsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contacts.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SocialClient.ContactsViewController.(viewDidLoad (SocialClient.ContactsViewController) -&gt; () -&gt; ()).(closure #1):ContactsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "responseDictionary[&quot;birthday&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SocialClient.ContactsViewController.numberOfSectionsInTableView (SocialClient.ContactsViewController)(ObjectiveC.UITableView) -&gt; Swift.Int:ContactsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contacts.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
